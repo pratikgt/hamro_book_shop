@@ -1,0 +1,13 @@
+.book-listing-container{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 2rem;
+}
+
+.listing-container{
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+

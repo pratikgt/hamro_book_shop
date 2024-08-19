@@ -1,0 +1,51 @@
+.navbar-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 1rem 0;
+}
+
+.logo{
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-links-container{
+    padding-top: 1rem;
+}
+
+.nav-links, .nav-links-dark{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in;
+}
+
+.nav-links-dark{
+    color: black;
+}
+
+.nav-links-dark:hover{
+    color: var(--primary-color)
+}
+
+.nav-links:hover{
+    color: var(--primary-color)
+}
+
+.background-dark{
+    background-color: slategray;
+}
+
+.background-transparent{
+    background-color: transparent;
+}
+
+.relative{
+    position: relative !important;
+
+}
